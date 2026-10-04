@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="application-name" content="Alfabeto Divertido">
+  <meta name="author" content="Rômulo Penha">
+  <meta name="description" content="Três brincadeiras para aprender letras com Rômulo Penha, o tucano mascote. Funciona offline.">
+  <meta name="version" content="2.0.0">
+  <title>Alfabeto Divertido • Rômulo Penha</title>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/theme.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+  <main>
+    <section id="screen-menu" class="screen menu-screen" aria-labelledby="menu-title">
+      <div class="menu-tools"><button id="sound-toggle" class="icon-btn" aria-label="Desligar som" aria-pressed="true">🔊</button></div>
+      <p class="eyebrow">Uma letra, muitas descobertas</p>
+      <h1 id="menu-title" class="title">Alfabeto<br><span>Divertido</span></h1>
+      <p class="subtitle">Vamos aprender a ler brincando! 🎉</p>
+      <div class="menu-art" aria-hidden="true"><span class="art-letter">A</span><span class="art-letter">B</span><span class="art-letter">C</span></div>
+      <nav class="mode-list" aria-label="Escolha uma brincadeira">
+        <button class="mode" data-mode="primeiraLetra"><span class="mode-icon" aria-hidden="true">🔤</span><span><strong>Primeira Letra</strong><small>Qual letra começa a palavra?</small></span></button>
+        <button class="mode" data-mode="montePalavra"><span class="mode-icon" aria-hidden="true">🧩</span><span><strong>Monte a Palavra</strong><small>Coloque as letras na ordem</small></span></button>
+        <button class="mode" data-mode="alfabeto"><span class="mode-icon" aria-hidden="true">🎨</span><span><strong>Brincar com o Alfabeto</strong><small>Toque em cada letra e ouça</small></span></button>
+      </nav>
+      <p class="menu-note">Feito para explorar, tentar e aprender 💛</p>
+    </section>
+    <section id="screen-game" class="screen" hidden inert aria-labelledby="question">
+      <header class="game-header">
+        <button id="game-menu" class="icon-btn" aria-label="Voltar ao menu">🏠</button>
+        <div class="header-center"><p id="mode-caption" class="mode-caption"></p><div id="progress"></div></div>
+        <button id="sound-toggle-game" class="icon-btn" aria-label="Desligar som" aria-pressed="true">🔊</button>
+      </header>
+      <div class="panel"><div id="game-body"></div><div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div></div>
+    </section>
+    <section id="screen-celebration" class="screen celebration-screen" hidden inert aria-labelledby="celebration-title">
+      <div class="celebration-tools"><button id="sound-toggle-celebration" class="icon-btn" aria-label="Desligar som" aria-pressed="true">🔊</button></div>
+      <div class="panel celebration-panel">
+        <div id="stars" class="stars" aria-hidden="true"></div>
+        <h2 id="celebration-title" class="celebration-title" tabindex="-1"></h2>
+        <p id="star-result" class="sr-only"></p>
+        <p id="celebration-message" class="celebration-message"></p>
+        <div class="final-actions"><button id="replay" class="action">🔁 Jogar de novo</button><button id="celebration-menu" class="action secondary">🏠 Menu</button></div>
+      </div>
+    </section>
+  </main>
+  <footer class="game-footer"><p class="author-credit">Jogo desenvolvido por <strong>“Rômulo Penha”</strong></p></footer>
+  <!-- CHG-101-ATOR-MASCOTE: Rômulo Penha, drawn directly inside the HTML. -->
+  <aside id="mascote-romulo" class="mascot idle" hidden>
+    <div id="mascote-balao" class="bubble" hidden aria-hidden="true"></div>
+    <svg viewBox="0 0 110 120" role="img" aria-labelledby="toucan-title">
+      <title id="toucan-title">Rômulo Penha, o tucano mascote</title>
+      <ellipse cx="52" cy="115" rx="37" ry="4" fill="#2c3e50" opacity=".13"/>
+      <path d="M30 72 16 102 38 96" fill="#203546"/>
+      <path d="M44 106v9m18-10v10" stroke="#e98423" stroke-width="7" stroke-linecap="round"/>
+      <path d="M39 115h13m5 0h13" stroke="#e98423" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="53" cy="76" rx="30" ry="35" fill="#203546"/>
+      <ellipse cx="59" cy="82" rx="19" ry="26" fill="#fff8e7"/>
+      <path d="M29 63c-15 3-12 34 6 37 10-8 13-29-6-37" fill="#4ecdc4" stroke="#287d81" stroke-width="2"/>
+      <circle cx="55" cy="35" r="27" fill="#203546"/>
+      <path d="M65 18C104 10 112 27 102 46 89 51 72 44 67 39Z" fill="#ff9f43" stroke="#cb7524" stroke-width="2"/>
+      <path d="M99 18c12 5 12 18 4 28l-13 1 6-28" fill="#203546"/>
+      <path d="m72 34 22 2" stroke="#df7824" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="56" cy="29" r="10" fill="#fff"/><circle cx="59" cy="30" r="5" fill="#203546"/><circle cx="61" cy="28" r="1.6" fill="#fff"/>
+      <path class="eyebrow-line" d="m45 17 18 5" fill="none" stroke="#fff8e7" stroke-width="3" stroke-linecap="round"/>
+      <path class="smile" d="M51 45q8 6 15-1" fill="none" stroke="#fff8e7" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="44" cy="41" rx="5" ry="3" fill="#ff6b9d" opacity=".7"/>
+    </svg>
+    <span class="mascot-name" aria-hidden="true">Rômulo Penha</span>
+  </aside>
+  <div id="particles" aria-hidden="true"></div>
+  <script defer src="js/data/content.js"></script>
+  <script defer src="js/core/state.js"></script>
+  <script defer src="js/game/rounds.js"></script>
+  <script defer src="js/audio/speech.js"></script>
+  <script defer src="js/actors/tucano.js"></script>
+  <script defer src="js/effects/particles.js"></script>
+  <script defer src="js/game/render.js"></script>
+  <script defer src="js/app.js"></script>
+</body>
+</html>

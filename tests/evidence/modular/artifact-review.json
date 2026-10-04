@@ -1,0 +1,99 @@
+{
+  "version": "2.0.0",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 5911,
+      "sha256": "6a8811ccd61f16b88dfbc8ad305167c0f1274b5fbc5f02d2e0c8487702f26fa7"
+    },
+    {
+      "path": "js/actors/tucano.js",
+      "bytes": 948,
+      "sha256": "4e12988e14a63326281fb0aa85a61df2368028c8bcc6bdfdf433ae3197e7fc9d"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 5978,
+      "sha256": "7c92e9cd606009dc53004c9f2a3da6ac25ce1c43d8e7e4172f63404f46d168cf"
+    },
+    {
+      "path": "js/audio/speech.js",
+      "bytes": 3338,
+      "sha256": "312a275c0eb8755949b2f73c1d88e545c8ae1105d725471a37dedf7a29175960"
+    },
+    {
+      "path": "js/core/state.js",
+      "bytes": 782,
+      "sha256": "41005ab010101afed42178c6484a7d5da636a41836c3c18ccc4849f620c3c47f"
+    },
+    {
+      "path": "js/data/content.js",
+      "bytes": 1686,
+      "sha256": "7183c7819257dc19d31c8b8a700269c149f663d44a34f242adf597e1ccde3231"
+    },
+    {
+      "path": "js/effects/particles.js",
+      "bytes": 2210,
+      "sha256": "1c4214b1962a5cfc0070ab1688285f7c808d06062d35baa54e2b55132d6d8191"
+    },
+    {
+      "path": "js/game/render.js",
+      "bytes": 9924,
+      "sha256": "875e5013ecb5db73910e2e422c14613059b38bb5839f23b37129a8f3ea32b2c9"
+    },
+    {
+      "path": "js/game/rounds.js",
+      "bytes": 2523,
+      "sha256": "f261136e1a6e696961a5b8238c2f4ee430a9e7e347e221f0b3b7d2dc9aaea2bf"
+    },
+    {
+      "path": "styles/animations.css",
+      "bytes": 3289,
+      "sha256": "3061c7fddc256d40a3082f09a358e80b5106712927314c1c872c38321025eced"
+    },
+    {
+      "path": "styles/base.css",
+      "bytes": 640,
+      "sha256": "a0fa79885b5b403d73738dac4886bc3fc85839ba6dab738960236841c2691563"
+    },
+    {
+      "path": "styles/components.css",
+      "bytes": 11081,
+      "sha256": "44f03690aeb1647ab8299cc3002aab892746f9c027277af532cb649ce42c6bdf"
+    },
+    {
+      "path": "styles/theme.css",
+      "bytes": 442,
+      "sha256": "cf81ee825c3c114b38c37fd49dca6498bcc8a40fcdc5c3d43e82653a973024ad"
+    }
+  ],
+  "totalBytes": 48752,
+  "domainSpecs": 8,
+  "reviewer": "Codex (auto-revisão; aceite humano pendente)",
+  "errors": [],
+  "performance": {
+    "samples": 120,
+    "maxMs": 28.700000002980232,
+    "limitMs": 200,
+    "passed": true
+  },
+  "browserTests": {
+    "chrome": 21,
+    "msedge": 21
+  },
+  "manualAcceptance": "pending",
+  "authorFooter": {
+    "author": "Rômulo Penha",
+    "viewport": [
+      320,
+      568
+    ],
+    "screens": [
+      "menu",
+      "primeiraLetra",
+      "montePalavra",
+      "alfabeto"
+    ],
+    "passed": true
+  }
+}

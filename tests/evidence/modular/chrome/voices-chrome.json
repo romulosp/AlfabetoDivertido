@@ -1,0 +1,16 @@
+{
+  "channel": "chrome",
+  "voices": [
+    {
+      "name": "Microsoft Daniel - Portuguese (Brazil)",
+      "lang": "pt-BR",
+      "localService": true
+    },
+    {
+      "name": "Microsoft Maria - Portuguese (Brazil)",
+      "lang": "pt-BR",
+      "localService": true
+    }
+  ],
+  "localPtBR": true
+}

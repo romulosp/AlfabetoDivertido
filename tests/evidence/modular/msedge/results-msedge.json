@@ -1,0 +1,92 @@
+[
+  {
+    "name": "foundation: pure rules and immutable inputs",
+    "status": "passed",
+    "ms": 7
+  },
+  {
+    "name": "foundation: screens, sound, inactive focus and optional API failures",
+    "status": "passed",
+    "ms": 3944
+  },
+  {
+    "name": "foundation: voice locality, late voice, sequence and cancellation",
+    "status": "passed",
+    "ms": 3214
+  },
+  {
+    "name": "foundation: old advance and reduced motion cannot change new activity",
+    "status": "passed",
+    "ms": 643
+  },
+  {
+    "name": "initial: hint, distinct alternatives, wrong then right and duplicate input",
+    "status": "passed",
+    "ms": 706
+  },
+  {
+    "name": "initial: eight questions and first-attempt star boundaries",
+    "status": "passed",
+    "ms": 3465
+  },
+  {
+    "name": "word: repeated occurrences, incorrect input and consumed-button protection",
+    "status": "passed",
+    "ms": 1271
+  },
+  {
+    "name": "word: whole-word first attempt and eight questions",
+    "status": "passed",
+    "ms": 7753
+  },
+  {
+    "name": "alphabet: all examples, latest selection, repeated selection and speech error",
+    "status": "passed",
+    "ms": 1533
+  },
+  {
+    "name": "inclusive: normal motion cancellation and changing motion preference",
+    "status": "passed",
+    "ms": 2914
+  },
+  {
+    "name": "inclusive: viewport, control sizes, actor clearance and screen captures",
+    "status": "passed",
+    "ms": 7002
+  },
+  {
+    "name": "inclusive: native keyboard, focus and zoom 200 percent",
+    "status": "passed",
+    "ms": 981
+  },
+  {
+    "name": "inclusive: offline packaging, exact CHG markers and text contrast",
+    "status": "passed",
+    "ms": 517
+  },
+  {
+    "name": "inclusive: speech failure restores live text and mute cancels scheduled sources",
+    "status": "passed",
+    "ms": 716
+  },
+  {
+    "name": "inclusive: real native API inventory and sound cleanup",
+    "status": "passed",
+    "ms": 7180
+  },
+  {
+    "name": "inclusive: normal visual effects, reactions and touch input",
+    "status": "passed",
+    "ms": 5699
+  },
+  {
+    "name": "final: nine scores in both modes, exact messages and replay cleanup",
+    "status": "passed",
+    "ms": 20326
+  },
+  {
+    "name": "final: ten rounds per evaluated mode and ten activity cancellation cycles",
+    "status": "passed",
+    "ms": 25909
+  }
+]

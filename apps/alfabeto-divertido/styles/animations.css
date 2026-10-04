@@ -1,0 +1,55 @@
+@layer animations {
+  /* CHG-308-EFEITO-GRADIENT-ANIMADO: all colors and assets are local. */
+  body {animation:sky 30s ease infinite;}
+  /* CHG-201-ANIM-TRANSICAO-TELA: inactive screens become inert immediately. */
+  .screen.enter {animation:screen-in .35s ease both;}
+  .screen.exit {animation:screen-out .35s ease both;}
+  .mode {transition:transform .15s,box-shadow .15s;}
+  /* CHG-205-ANIM-PROGRESSO-FILL */
+  .dot.current {animation:dot-pulse 1.8s ease infinite;}
+  .progress-fill {transition:width .35s ease;}
+  .letter {transition:background .12s;}
+  .letter.wrong {animation:shake .4s ease;}
+  /* CHG-203-ANIM-SLOT-FILL-BOUNCE */
+  .slot.filled {animation:slot-pop .45s ease;}
+  /* CHG-307-EFEITO-GLOW-LETRA-FALADA */
+  .alpha-letter.glow {animation:letter-glow 1s ease;}
+  /* CHG-206-ANIM-CARD-ALPHA-FLIP */
+  .alpha-card {animation:card-flip .55s ease;}
+  .star.earned {animation:slot-pop .45s ease both;animation-delay:var(--delay);}
+  .bubble {transition:opacity .2s;}
+  /* CHG-207-ANIM-MASCOTE-IDLE */
+  .mascot.idle svg {animation:breathe 4s ease-in-out infinite;}
+  .mascot.happy svg {animation:toucan-jump .8s ease;}
+  .mascot.confused svg {animation:toucan-confused .6s ease;}
+  .question-emoji.happy {animation:emoji-happy .7s ease;}
+  .question-emoji.confused {animation:shake .4s ease;}
+  /* CHG-301-EFEITO-CONFETE-FORMAS */
+  .confetti {animation:confetti-fall 1.8s ease-in both;}
+  /* CHG-302-EFEITO-EXPLOSAO-ESTRELAS */
+  .burst-star {animation:star-burst 1s ease-out both;}
+  /* CHG-303-EFEITO-FLASH-ERRO */
+  .error-flash {animation:error-flash .28s ease;}
+  /* CHG-306-EFEITO-SHOCKWAVE-ACERTO */
+  .letter.wave::after {animation:wave .8s ease-out both;}
+  @keyframes sky {0%,100%{background-position:0 50%}50%{background-position:100% 50%}}
+  @keyframes screen-in {from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @keyframes screen-out {to{opacity:0;transform:translateY(-10px)}}
+  @keyframes dot-pulse {50%{box-shadow:0 0 0 4px #a78bfa45}}
+  @keyframes slot-pop {0%{transform:scale(.86)}55%{transform:scale(1.12)}100%{transform:scale(1)}}
+  @keyframes shake {25%{transform:translateX(-4px) rotate(-3deg)}75%{transform:translateX(4px) rotate(3deg)}}
+  @keyframes emoji-happy {45%{transform:scale(1.17) rotate(8deg)}}
+  @keyframes card-flip {from{opacity:0;transform:rotateY(-70deg)}to{opacity:1;transform:rotateY(0)}}
+  @keyframes letter-glow {50%{box-shadow:0 0 0 5px #a78bfa70,0 0 20px #9075c4}}
+  @keyframes breathe {50%{transform:translateY(-3px) scale(1.025)}}
+  @keyframes toucan-jump {30%,65%{transform:translateY(-14px) rotate(-5deg)}45%{transform:translateY(-4px) rotate(4deg)}}
+  @keyframes toucan-confused {25%{transform:rotate(-9deg)}65%{transform:rotate(7deg)}}
+  @keyframes confetti-fall {to{transform:translate(var(--drift),110vh) rotate(540deg);opacity:0}}
+  @keyframes star-burst {to{transform:translate(var(--dx),var(--dy)) scale(.3);opacity:0}}
+  @keyframes error-flash {35%{opacity:.18}100%{opacity:0}}
+  @keyframes wave {to{transform:scale(1.6);opacity:0}}
+  @media(prefers-reduced-motion:reduce) {
+      *,*::before,*::after {animation:none!important;transition:none!important;scroll-behavior:auto!important;}
+      .letter.wave::after {display:none;}
+    }
+}

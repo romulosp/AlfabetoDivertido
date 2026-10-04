@@ -1,0 +1,441 @@
+[
+  {
+    "mode": "menu",
+    "records": [
+      {
+        "text": "🔇",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Uma letra, muitas descobertas",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 12
+      },
+      {
+        "text": "Alfabeto",
+        "ratio": 9.625809804737083,
+        "required": 3,
+        "size": 40
+      },
+      {
+        "text": "Divertido",
+        "ratio": 9.625809804737083,
+        "required": 3,
+        "size": 40
+      },
+      {
+        "text": "Vamos aprender a ler brincando! 🎉",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 17
+      },
+      {
+        "text": "Primeira Letra",
+        "ratio": 4.815537731944246,
+        "required": 3,
+        "size": 19
+      },
+      {
+        "text": "Qual letra começa a palavra?",
+        "ratio": 4.815537731944246,
+        "required": 4.5,
+        "size": 14
+      },
+      {
+        "text": "Monte a Palavra",
+        "ratio": 6.664903939572208,
+        "required": 3,
+        "size": 19
+      },
+      {
+        "text": "Coloque as letras na ordem",
+        "ratio": 6.664903939572208,
+        "required": 4.5,
+        "size": 14
+      },
+      {
+        "text": "Brincar com o Alfabeto",
+        "ratio": 4.738550412337084,
+        "required": 3,
+        "size": 19
+      },
+      {
+        "text": "Toque em cada letra e ouça",
+        "ratio": 4.738550412337084,
+        "required": 4.5,
+        "size": 14
+      },
+      {
+        "text": "Feito para explorar, tentar e aprender 💛",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 14
+      }
+    ]
+  },
+  {
+    "mode": "primeiraLetra",
+    "records": [
+      {
+        "text": "🏠",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Primeira Letra",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 10
+      },
+      {
+        "text": "🔇",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Qual é a primeira letra de",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "SAPO",
+        "ratio": 7.814469253572297,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "?",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "?",
+        "ratio": 7.092749684255745,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "APO",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "U",
+        "ratio": 4.815537731944246,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "L",
+        "ratio": 6.664903939572208,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "S",
+        "ratio": 10.311265375496271,
+        "required": 3,
+        "size": 32
+      }
+    ]
+  },
+  {
+    "mode": "montePalavra",
+    "records": [
+      {
+        "text": "🏠",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Monte a Palavra",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 10
+      },
+      {
+        "text": "🔇",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Monte a palavra:",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "CASA",
+        "ratio": 7.814469253572297,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "S",
+        "ratio": 4.815537731944246,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "C",
+        "ratio": 6.664903939572208,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "A",
+        "ratio": 10.311265375496271,
+        "required": 3,
+        "size": 32
+      },
+      {
+        "text": "A",
+        "ratio": 4.815537731944246,
+        "required": 3,
+        "size": 32
+      }
+    ]
+  },
+  {
+    "mode": "alfabeto",
+    "records": [
+      {
+        "text": "🏠",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Brincar com o Alfabeto",
+        "ratio": 9.625809804737083,
+        "required": 4.5,
+        "size": 10
+      },
+      {
+        "text": "🔇",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Brincar com o Alfabeto",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "Toque em uma letra para ouvir 👇",
+        "ratio": 12.174478451300592,
+        "required": 4.5,
+        "size": 19
+      },
+      {
+        "text": "A",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "B",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "C",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "D",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "E",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "F",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "G",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "H",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "I",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "J",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "K",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "L",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "M",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "N",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "O",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "P",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "Q",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "R",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "S",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "T",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "U",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "V",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "W",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "X",
+        "ratio": 10.60532687683148,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "Y",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 24
+      },
+      {
+        "text": "Z",
+        "ratio": 10.520830283647552,
+        "required": 3,
+        "size": 24
+      }
+    ]
+  },
+  {
+    "mode": "celebration",
+    "records": [
+      {
+        "text": "🔇",
+        "ratio": 12.895567036664385,
+        "required": 4.5,
+        "size": 23
+      },
+      {
+        "text": "Uau! Que incrível!",
+        "ratio": 12.174478451300592,
+        "required": 3,
+        "size": 31
+      },
+      {
+        "text": "3 de 3 estrelas",
+        "ratio": 12.174478451300592,
+        "required": 4.5,
+        "size": 16
+      },
+      {
+        "text": "Você acertou quase tudo de primeira. Que memória boa!",
+        "ratio": 12.174478451300592,
+        "required": 4.5,
+        "size": 18
+      },
+      {
+        "text": "🔁 Jogar de novo",
+        "ratio": 6.664903939572208,
+        "required": 3,
+        "size": 19
+      },
+      {
+        "text": "🏠 Menu",
+        "ratio": 10.175824055515404,
+        "required": 3,
+        "size": 19
+      }
+    ]
+  }
+]

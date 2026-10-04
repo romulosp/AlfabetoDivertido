@@ -1,0 +1,18 @@
+{
+  "artifact": "apps/alfabeto-divertido/index.html",
+  "version": "1.0.0",
+  "bytes": 42614,
+  "sha256": "95d43079b6da26a5fb5949729060dcbc173060900381944ab6e10afbf2b5e96d",
+  "requirements": {
+    "FR": 43,
+    "DC": 8,
+    "SC": 10
+  },
+  "chgMarkers": 16,
+  "brokenLinks": [],
+  "suiteResults": {
+    "chrome": 18,
+    "msedge": 18
+  },
+  "review": "Codex: source and visual self-review; final acceptance pending manual evidence"
+}
