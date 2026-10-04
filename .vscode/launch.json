@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Android: gerar APK e deploy no celular",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/godot/launch_android.cjs",
+      "args": ["--celular"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "Android: gerar APK",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Android: deploy APK existente no celular",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/godot/launch_android.cjs",
+      "args": ["--celular"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Android: abrir APK no emulador",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/godot/launch_android.cjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Android: gerar APK e abrir no emulador",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/tools/godot/launch_android.cjs",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "Android: gerar APK",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

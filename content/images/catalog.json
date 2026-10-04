@@ -1,0 +1,5 @@
+{"schemaVersion":1,"concepts":[
+{"conceptId":"bola","namePt":"bola","letter":"B","syllables":["bo","la"],"pedagogicalGoal":"Reconhecer B e associar ao som inicial de bola.","visualDescription":"bola infantil redonda com painéis amarelos, coral e turquesa","context":"objeto interativo em jardim 3D de alfabetização","status":"pending"},
+{"conceptId":"casa","namePt":"casa","letter":"C","syllables":["ca","sa"],"pedagogicalGoal":"Reconhecer C e associar ao som inicial de casa.","visualDescription":"casinha simples amarela, telhado coral, porta turquesa e duas janelas","context":"objeto interativo em jardim 3D de alfabetização","status":"pending"},
+{"conceptId":"dado","namePt":"dado","letter":"D","syllables":["da","do"],"pedagogicalGoal":"Reconhecer D e associar ao som inicial de dado.","visualDescription":"dado cúbico branco com pontos pretos grandes nas faces","context":"objeto interativo em jardim 3D de alfabetização","status":"pending"}
+]}

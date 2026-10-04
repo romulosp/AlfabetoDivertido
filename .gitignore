@@ -1,0 +1,14 @@
+# Caches e arquivos locais do Godot.
+apps/alfabeto-godot/.godot/
+apps/alfabeto-godot/android/
+apps/alfabeto-godot/export_credentials.cfg
+builds/
+*.keystore
+godot/.godot/
+godot/android/
+godot/export_credentials.cfg
+content/images/candidates/
+content/images/pending/
+build/
+**/__pycache__/
+*.blend1

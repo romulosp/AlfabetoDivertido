@@ -1,0 +1,381 @@
+[gd_resource type="Resource" script_class="ContentCatalog" load_steps=100 format=3]
+
+[ext_resource type="Script" path="res://scripts/content_catalog.gd" id="catalog"]
+[ext_resource type="Script" path="res://scripts/word_card.gd" id="entry"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f431.svg" id="image_0"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f986.svg" id="image_1"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/26bd.svg" id="image_2"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f3e0.svg" id="image_3"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f438.svg" id="image_4"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f42d.svg" id="image_5"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f3b2.svg" id="image_6"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f52a.svg" id="image_7"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f404.svg" id="image_8"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f43a.svg" id="image_9"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f43b.svg" id="image_10"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f338.svg" id="image_11"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f525.svg" id="image_12"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1fa91.svg" id="image_13"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f6cf.svg" id="image_14"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1fa81.svg" id="image_15"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f339.svg" id="image_16"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f682.svg" id="image_17"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f5fa.svg" id="image_18"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f382.svg" id="image_19"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f3cd.svg" id="image_20"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f56f.svg" id="image_21"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/2600.svg" id="image_22"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f30a.svg" id="image_23"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f347.svg" id="image_24"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f95a.svg" id="image_25"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f319.svg" id="image_26"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f402.svg" id="image_27"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f36f.svg" id="image_28"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f41d.svg" id="image_29"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f418.svg" id="image_30"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f99b.svg" id="image_31"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f3dd.svg" id="image_32"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f40a.svg" id="image_33"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f95d.svg" id="image_34"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f435.svg" id="image_35"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f6a2.svg" id="image_36"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f9c0.svg" id="image_37"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f4f6.svg" id="image_38"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/2615.svg" id="image_39"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/25b6.svg" id="image_40"]
+[ext_resource type="Texture2D" path="res://assets/illustrations/1f993.svg" id="image_41"]
+
+[sub_resource type="Resource" id="card_0"]
+script = ExtResource("entry")
+letter = "G"
+word = "GATO"
+illustration = ExtResource("image_0")
+
+[sub_resource type="Resource" id="card_1"]
+script = ExtResource("entry")
+letter = "P"
+word = "PATO"
+illustration = ExtResource("image_1")
+
+[sub_resource type="Resource" id="card_2"]
+script = ExtResource("entry")
+letter = "B"
+word = "BOLA"
+illustration = ExtResource("image_2")
+
+[sub_resource type="Resource" id="card_3"]
+script = ExtResource("entry")
+letter = "C"
+word = "CASA"
+illustration = ExtResource("image_3")
+
+[sub_resource type="Resource" id="card_4"]
+script = ExtResource("entry")
+letter = "S"
+word = "SAPO"
+illustration = ExtResource("image_4")
+
+[sub_resource type="Resource" id="card_5"]
+script = ExtResource("entry")
+letter = "R"
+word = "RATO"
+illustration = ExtResource("image_5")
+
+[sub_resource type="Resource" id="card_6"]
+script = ExtResource("entry")
+letter = "D"
+word = "DADO"
+illustration = ExtResource("image_6")
+
+[sub_resource type="Resource" id="card_7"]
+script = ExtResource("entry")
+letter = "F"
+word = "FACA"
+illustration = ExtResource("image_7")
+
+[sub_resource type="Resource" id="card_8"]
+script = ExtResource("entry")
+letter = "V"
+word = "VACA"
+illustration = ExtResource("image_8")
+
+[sub_resource type="Resource" id="card_9"]
+script = ExtResource("entry")
+letter = "L"
+word = "LOBO"
+illustration = ExtResource("image_9")
+
+[sub_resource type="Resource" id="card_10"]
+script = ExtResource("entry")
+letter = "U"
+word = "URSO"
+illustration = ExtResource("image_10")
+
+[sub_resource type="Resource" id="card_11"]
+script = ExtResource("entry")
+letter = "F"
+word = "FLOR"
+illustration = ExtResource("image_11")
+
+[sub_resource type="Resource" id="card_12"]
+script = ExtResource("entry")
+letter = "F"
+word = "FOGO"
+illustration = ExtResource("image_12")
+
+[sub_resource type="Resource" id="card_13"]
+script = ExtResource("entry")
+letter = "M"
+word = "MESA"
+illustration = ExtResource("image_13")
+
+[sub_resource type="Resource" id="card_14"]
+script = ExtResource("entry")
+letter = "C"
+word = "CAMA"
+illustration = ExtResource("image_14")
+
+[sub_resource type="Resource" id="card_15"]
+script = ExtResource("entry")
+letter = "P"
+word = "PIPA"
+illustration = ExtResource("image_15")
+
+[sub_resource type="Resource" id="card_16"]
+script = ExtResource("entry")
+letter = "R"
+word = "ROSA"
+illustration = ExtResource("image_16")
+
+[sub_resource type="Resource" id="card_17"]
+script = ExtResource("entry")
+letter = "T"
+word = "TREM"
+illustration = ExtResource("image_17")
+
+[sub_resource type="Resource" id="card_18"]
+script = ExtResource("entry")
+letter = "M"
+word = "MAPA"
+illustration = ExtResource("image_18")
+
+[sub_resource type="Resource" id="card_19"]
+script = ExtResource("entry")
+letter = "B"
+word = "BOLO"
+illustration = ExtResource("image_19")
+
+[sub_resource type="Resource" id="card_20"]
+script = ExtResource("entry")
+letter = "M"
+word = "MOTO"
+illustration = ExtResource("image_20")
+
+[sub_resource type="Resource" id="card_21"]
+script = ExtResource("entry")
+letter = "V"
+word = "VELA"
+illustration = ExtResource("image_21")
+
+[sub_resource type="Resource" id="card_22"]
+script = ExtResource("entry")
+letter = "S"
+word = "SOL"
+illustration = ExtResource("image_22")
+
+[sub_resource type="Resource" id="card_23"]
+script = ExtResource("entry")
+letter = "M"
+word = "MAR"
+illustration = ExtResource("image_23")
+
+[sub_resource type="Resource" id="card_24"]
+script = ExtResource("entry")
+letter = "U"
+word = "UVA"
+illustration = ExtResource("image_24")
+
+[sub_resource type="Resource" id="card_25"]
+script = ExtResource("entry")
+letter = "O"
+word = "OVO"
+illustration = ExtResource("image_25")
+
+[sub_resource type="Resource" id="card_26"]
+script = ExtResource("entry")
+letter = "L"
+word = "LUA"
+illustration = ExtResource("image_26")
+
+[sub_resource type="Resource" id="card_27"]
+script = ExtResource("entry")
+letter = "B"
+word = "BOI"
+illustration = ExtResource("image_27")
+
+[sub_resource type="Resource" id="card_28"]
+script = ExtResource("entry")
+letter = "M"
+word = "MEL"
+illustration = ExtResource("image_28")
+
+[sub_resource type="Resource" id="card_29"]
+script = ExtResource("entry")
+letter = "A"
+word = "ABELHA"
+illustration = ExtResource("image_29")
+
+[sub_resource type="Resource" id="card_30"]
+script = ExtResource("entry")
+letter = "B"
+word = "BOLA"
+illustration = ExtResource("image_2")
+
+[sub_resource type="Resource" id="card_31"]
+script = ExtResource("entry")
+letter = "C"
+word = "CASA"
+illustration = ExtResource("image_3")
+
+[sub_resource type="Resource" id="card_32"]
+script = ExtResource("entry")
+letter = "D"
+word = "DADO"
+illustration = ExtResource("image_6")
+
+[sub_resource type="Resource" id="card_33"]
+script = ExtResource("entry")
+letter = "E"
+word = "ELEFANTE"
+illustration = ExtResource("image_30")
+
+[sub_resource type="Resource" id="card_34"]
+script = ExtResource("entry")
+letter = "F"
+word = "FLOR"
+illustration = ExtResource("image_11")
+
+[sub_resource type="Resource" id="card_35"]
+script = ExtResource("entry")
+letter = "G"
+word = "GATO"
+illustration = ExtResource("image_0")
+
+[sub_resource type="Resource" id="card_36"]
+script = ExtResource("entry")
+letter = "H"
+word = "HIPOPÓTAMO"
+illustration = ExtResource("image_31")
+
+[sub_resource type="Resource" id="card_37"]
+script = ExtResource("entry")
+letter = "I"
+word = "ILHA"
+illustration = ExtResource("image_32")
+
+[sub_resource type="Resource" id="card_38"]
+script = ExtResource("entry")
+letter = "J"
+word = "JACARÉ"
+illustration = ExtResource("image_33")
+
+[sub_resource type="Resource" id="card_39"]
+script = ExtResource("entry")
+letter = "K"
+word = "KIWI"
+illustration = ExtResource("image_34")
+
+[sub_resource type="Resource" id="card_40"]
+script = ExtResource("entry")
+letter = "L"
+word = "LUA"
+illustration = ExtResource("image_26")
+
+[sub_resource type="Resource" id="card_41"]
+script = ExtResource("entry")
+letter = "M"
+word = "MACACO"
+illustration = ExtResource("image_35")
+
+[sub_resource type="Resource" id="card_42"]
+script = ExtResource("entry")
+letter = "N"
+word = "NAVIO"
+illustration = ExtResource("image_36")
+
+[sub_resource type="Resource" id="card_43"]
+script = ExtResource("entry")
+letter = "O"
+word = "OVO"
+illustration = ExtResource("image_25")
+
+[sub_resource type="Resource" id="card_44"]
+script = ExtResource("entry")
+letter = "P"
+word = "PATO"
+illustration = ExtResource("image_1")
+
+[sub_resource type="Resource" id="card_45"]
+script = ExtResource("entry")
+letter = "Q"
+word = "QUEIJO"
+illustration = ExtResource("image_37")
+
+[sub_resource type="Resource" id="card_46"]
+script = ExtResource("entry")
+letter = "R"
+word = "RATO"
+illustration = ExtResource("image_5")
+
+[sub_resource type="Resource" id="card_47"]
+script = ExtResource("entry")
+letter = "S"
+word = "SAPO"
+illustration = ExtResource("image_4")
+
+[sub_resource type="Resource" id="card_48"]
+script = ExtResource("entry")
+letter = "T"
+word = "TREM"
+illustration = ExtResource("image_17")
+
+[sub_resource type="Resource" id="card_49"]
+script = ExtResource("entry")
+letter = "U"
+word = "UVA"
+illustration = ExtResource("image_24")
+
+[sub_resource type="Resource" id="card_50"]
+script = ExtResource("entry")
+letter = "V"
+word = "VACA"
+illustration = ExtResource("image_8")
+
+[sub_resource type="Resource" id="card_51"]
+script = ExtResource("entry")
+letter = "W"
+word = "WIFI"
+illustration = ExtResource("image_38")
+
+[sub_resource type="Resource" id="card_52"]
+script = ExtResource("entry")
+letter = "X"
+word = "XÍCARA"
+illustration = ExtResource("image_39")
+
+[sub_resource type="Resource" id="card_53"]
+script = ExtResource("entry")
+letter = "Y"
+word = "YOUTUBE"
+illustration = ExtResource("image_40")
+
+[sub_resource type="Resource" id="card_54"]
+script = ExtResource("entry")
+letter = "Z"
+word = "ZEBRA"
+illustration = ExtResource("image_41")
+
+[resource]
+script = ExtResource("catalog")
+rounds = Array[ExtResource("entry")]([SubResource("card_0"), SubResource("card_1"), SubResource("card_2"), SubResource("card_3"), SubResource("card_4"), SubResource("card_5"), SubResource("card_6"), SubResource("card_7"), SubResource("card_8"), SubResource("card_9"), SubResource("card_10"), SubResource("card_11"), SubResource("card_12"), SubResource("card_13"), SubResource("card_14"), SubResource("card_15"), SubResource("card_16"), SubResource("card_17"), SubResource("card_18"), SubResource("card_19"), SubResource("card_20"), SubResource("card_21"), SubResource("card_22"), SubResource("card_23"), SubResource("card_24"), SubResource("card_25"), SubResource("card_26"), SubResource("card_27"), SubResource("card_28")])
+examples = Array[ExtResource("entry")]([SubResource("card_29"), SubResource("card_30"), SubResource("card_31"), SubResource("card_32"), SubResource("card_33"), SubResource("card_34"), SubResource("card_35"), SubResource("card_36"), SubResource("card_37"), SubResource("card_38"), SubResource("card_39"), SubResource("card_40"), SubResource("card_41"), SubResource("card_42"), SubResource("card_43"), SubResource("card_44"), SubResource("card_45"), SubResource("card_46"), SubResource("card_47"), SubResource("card_48"), SubResource("card_49"), SubResource("card_50"), SubResource("card_51"), SubResource("card_52"), SubResource("card_53"), SubResource("card_54")])

@@ -1,0 +1,867 @@
+[
+  {
+    "text": "Qual é a primeira letra de GATO?",
+    "spoken": "qual é a primeira letra de gato?",
+    "file": "clip_000.wav"
+  },
+  {
+    "text": "Monte a palavra GATO.",
+    "spoken": "monte a palavra gato.",
+    "file": "clip_001.wav"
+  },
+  {
+    "text": "G. GATO! Muito bem!",
+    "spoken": "gê. gato! Muito bem!",
+    "file": "clip_002.wav"
+  },
+  {
+    "text": "GATO! Muito bem!",
+    "spoken": "gato! muito bem!",
+    "file": "clip_003.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de PATO?",
+    "spoken": "qual é a primeira letra de pato?",
+    "file": "clip_004.wav"
+  },
+  {
+    "text": "Monte a palavra PATO.",
+    "spoken": "monte a palavra pato.",
+    "file": "clip_005.wav"
+  },
+  {
+    "text": "P. PATO! Muito bem!",
+    "spoken": "pê. pato! Muito bem!",
+    "file": "clip_006.wav"
+  },
+  {
+    "text": "PATO! Muito bem!",
+    "spoken": "pato! muito bem!",
+    "file": "clip_007.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de BOLA?",
+    "spoken": "qual é a primeira letra de bola?",
+    "file": "clip_008.wav"
+  },
+  {
+    "text": "Monte a palavra BOLA.",
+    "spoken": "monte a palavra bola.",
+    "file": "clip_009.wav"
+  },
+  {
+    "text": "B. BOLA! Muito bem!",
+    "spoken": "bê. bola! Muito bem!",
+    "file": "clip_010.wav"
+  },
+  {
+    "text": "BOLA! Muito bem!",
+    "spoken": "bola! muito bem!",
+    "file": "clip_011.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de CASA?",
+    "spoken": "qual é a primeira letra de casa?",
+    "file": "clip_012.wav"
+  },
+  {
+    "text": "Monte a palavra CASA.",
+    "spoken": "monte a palavra casa.",
+    "file": "clip_013.wav"
+  },
+  {
+    "text": "C. CASA! Muito bem!",
+    "spoken": "cê. casa! Muito bem!",
+    "file": "clip_014.wav"
+  },
+  {
+    "text": "CASA! Muito bem!",
+    "spoken": "casa! muito bem!",
+    "file": "clip_015.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de SAPO?",
+    "spoken": "qual é a primeira letra de sapo?",
+    "file": "clip_016.wav"
+  },
+  {
+    "text": "Monte a palavra SAPO.",
+    "spoken": "monte a palavra sapo.",
+    "file": "clip_017.wav"
+  },
+  {
+    "text": "S. SAPO! Muito bem!",
+    "spoken": "esse. sapo! Muito bem!",
+    "file": "clip_018.wav"
+  },
+  {
+    "text": "SAPO! Muito bem!",
+    "spoken": "sapo! muito bem!",
+    "file": "clip_019.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de RATO?",
+    "spoken": "qual é a primeira letra de rato?",
+    "file": "clip_020.wav"
+  },
+  {
+    "text": "Monte a palavra RATO.",
+    "spoken": "monte a palavra rato.",
+    "file": "clip_021.wav"
+  },
+  {
+    "text": "R. RATO! Muito bem!",
+    "spoken": "erre. rato! Muito bem!",
+    "file": "clip_022.wav"
+  },
+  {
+    "text": "RATO! Muito bem!",
+    "spoken": "rato! muito bem!",
+    "file": "clip_023.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de DADO?",
+    "spoken": "qual é a primeira letra de dado?",
+    "file": "clip_024.wav"
+  },
+  {
+    "text": "Monte a palavra DADO.",
+    "spoken": "monte a palavra dado.",
+    "file": "clip_025.wav"
+  },
+  {
+    "text": "D. DADO! Muito bem!",
+    "spoken": "dê. dado! Muito bem!",
+    "file": "clip_026.wav"
+  },
+  {
+    "text": "DADO! Muito bem!",
+    "spoken": "dado! muito bem!",
+    "file": "clip_027.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de FACA?",
+    "spoken": "qual é a primeira letra de faca?",
+    "file": "clip_028.wav"
+  },
+  {
+    "text": "Monte a palavra FACA.",
+    "spoken": "monte a palavra faca.",
+    "file": "clip_029.wav"
+  },
+  {
+    "text": "F. FACA! Muito bem!",
+    "spoken": "efe. faca! Muito bem!",
+    "file": "clip_030.wav"
+  },
+  {
+    "text": "FACA! Muito bem!",
+    "spoken": "faca! muito bem!",
+    "file": "clip_031.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de VACA?",
+    "spoken": "qual é a primeira letra de vaca?",
+    "file": "clip_032.wav"
+  },
+  {
+    "text": "Monte a palavra VACA.",
+    "spoken": "monte a palavra vaca.",
+    "file": "clip_033.wav"
+  },
+  {
+    "text": "V. VACA! Muito bem!",
+    "spoken": "vê. vaca! Muito bem!",
+    "file": "clip_034.wav"
+  },
+  {
+    "text": "VACA! Muito bem!",
+    "spoken": "vaca! muito bem!",
+    "file": "clip_035.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de LOBO?",
+    "spoken": "qual é a primeira letra de lobo?",
+    "file": "clip_036.wav"
+  },
+  {
+    "text": "Monte a palavra LOBO.",
+    "spoken": "monte a palavra lobo.",
+    "file": "clip_037.wav"
+  },
+  {
+    "text": "L. LOBO! Muito bem!",
+    "spoken": "ele. lobo! Muito bem!",
+    "file": "clip_038.wav"
+  },
+  {
+    "text": "LOBO! Muito bem!",
+    "spoken": "lobo! muito bem!",
+    "file": "clip_039.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de URSO?",
+    "spoken": "qual é a primeira letra de urso?",
+    "file": "clip_040.wav"
+  },
+  {
+    "text": "Monte a palavra URSO.",
+    "spoken": "monte a palavra urso.",
+    "file": "clip_041.wav"
+  },
+  {
+    "text": "U. URSO! Muito bem!",
+    "spoken": "u. urso! Muito bem!",
+    "file": "clip_042.wav"
+  },
+  {
+    "text": "URSO! Muito bem!",
+    "spoken": "urso! muito bem!",
+    "file": "clip_043.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de FLOR?",
+    "spoken": "qual é a primeira letra de flor?",
+    "file": "clip_044.wav"
+  },
+  {
+    "text": "Monte a palavra FLOR.",
+    "spoken": "monte a palavra flor.",
+    "file": "clip_045.wav"
+  },
+  {
+    "text": "F. FLOR! Muito bem!",
+    "spoken": "efe. flor! Muito bem!",
+    "file": "clip_046.wav"
+  },
+  {
+    "text": "FLOR! Muito bem!",
+    "spoken": "flor! muito bem!",
+    "file": "clip_047.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de FOGO?",
+    "spoken": "qual é a primeira letra de fogo?",
+    "file": "clip_048.wav"
+  },
+  {
+    "text": "Monte a palavra FOGO.",
+    "spoken": "monte a palavra fogo.",
+    "file": "clip_049.wav"
+  },
+  {
+    "text": "F. FOGO! Muito bem!",
+    "spoken": "efe. fogo! Muito bem!",
+    "file": "clip_050.wav"
+  },
+  {
+    "text": "FOGO! Muito bem!",
+    "spoken": "fogo! muito bem!",
+    "file": "clip_051.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de MESA?",
+    "spoken": "qual é a primeira letra de mesa?",
+    "file": "clip_052.wav"
+  },
+  {
+    "text": "Monte a palavra MESA.",
+    "spoken": "monte a palavra mesa.",
+    "file": "clip_053.wav"
+  },
+  {
+    "text": "M. MESA! Muito bem!",
+    "spoken": "eme. mesa! Muito bem!",
+    "file": "clip_054.wav"
+  },
+  {
+    "text": "MESA! Muito bem!",
+    "spoken": "mesa! muito bem!",
+    "file": "clip_055.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de CAMA?",
+    "spoken": "qual é a primeira letra de cama?",
+    "file": "clip_056.wav"
+  },
+  {
+    "text": "Monte a palavra CAMA.",
+    "spoken": "monte a palavra cama.",
+    "file": "clip_057.wav"
+  },
+  {
+    "text": "C. CAMA! Muito bem!",
+    "spoken": "cê. cama! Muito bem!",
+    "file": "clip_058.wav"
+  },
+  {
+    "text": "CAMA! Muito bem!",
+    "spoken": "cama! muito bem!",
+    "file": "clip_059.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de PIPA?",
+    "spoken": "qual é a primeira letra de pipa?",
+    "file": "clip_060.wav"
+  },
+  {
+    "text": "Monte a palavra PIPA.",
+    "spoken": "monte a palavra pipa.",
+    "file": "clip_061.wav"
+  },
+  {
+    "text": "P. PIPA! Muito bem!",
+    "spoken": "pê. pipa! Muito bem!",
+    "file": "clip_062.wav"
+  },
+  {
+    "text": "PIPA! Muito bem!",
+    "spoken": "pipa! muito bem!",
+    "file": "clip_063.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de ROSA?",
+    "spoken": "qual é a primeira letra de rosa?",
+    "file": "clip_064.wav"
+  },
+  {
+    "text": "Monte a palavra ROSA.",
+    "spoken": "monte a palavra rosa.",
+    "file": "clip_065.wav"
+  },
+  {
+    "text": "R. ROSA! Muito bem!",
+    "spoken": "erre. rosa! Muito bem!",
+    "file": "clip_066.wav"
+  },
+  {
+    "text": "ROSA! Muito bem!",
+    "spoken": "rosa! muito bem!",
+    "file": "clip_067.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de TREM?",
+    "spoken": "qual é a primeira letra de trem?",
+    "file": "clip_068.wav"
+  },
+  {
+    "text": "Monte a palavra TREM.",
+    "spoken": "monte a palavra trem.",
+    "file": "clip_069.wav"
+  },
+  {
+    "text": "T. TREM! Muito bem!",
+    "spoken": "tê. trem! Muito bem!",
+    "file": "clip_070.wav"
+  },
+  {
+    "text": "TREM! Muito bem!",
+    "spoken": "trem! muito bem!",
+    "file": "clip_071.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de MAPA?",
+    "spoken": "qual é a primeira letra de mapa?",
+    "file": "clip_072.wav"
+  },
+  {
+    "text": "Monte a palavra MAPA.",
+    "spoken": "monte a palavra mapa.",
+    "file": "clip_073.wav"
+  },
+  {
+    "text": "M. MAPA! Muito bem!",
+    "spoken": "eme. mapa! Muito bem!",
+    "file": "clip_074.wav"
+  },
+  {
+    "text": "MAPA! Muito bem!",
+    "spoken": "mapa! muito bem!",
+    "file": "clip_075.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de BOLO?",
+    "spoken": "qual é a primeira letra de bolo?",
+    "file": "clip_076.wav"
+  },
+  {
+    "text": "Monte a palavra BOLO.",
+    "spoken": "monte a palavra bolo.",
+    "file": "clip_077.wav"
+  },
+  {
+    "text": "B. BOLO! Muito bem!",
+    "spoken": "bê. bolo! Muito bem!",
+    "file": "clip_078.wav"
+  },
+  {
+    "text": "BOLO! Muito bem!",
+    "spoken": "bolo! muito bem!",
+    "file": "clip_079.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de MOTO?",
+    "spoken": "qual é a primeira letra de moto?",
+    "file": "clip_080.wav"
+  },
+  {
+    "text": "Monte a palavra MOTO.",
+    "spoken": "monte a palavra moto.",
+    "file": "clip_081.wav"
+  },
+  {
+    "text": "M. MOTO! Muito bem!",
+    "spoken": "eme. moto! Muito bem!",
+    "file": "clip_082.wav"
+  },
+  {
+    "text": "MOTO! Muito bem!",
+    "spoken": "moto! muito bem!",
+    "file": "clip_083.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de VELA?",
+    "spoken": "qual é a primeira letra de vela?",
+    "file": "clip_084.wav"
+  },
+  {
+    "text": "Monte a palavra VELA.",
+    "spoken": "monte a palavra vela.",
+    "file": "clip_085.wav"
+  },
+  {
+    "text": "V. VELA! Muito bem!",
+    "spoken": "vê. vela! Muito bem!",
+    "file": "clip_086.wav"
+  },
+  {
+    "text": "VELA! Muito bem!",
+    "spoken": "vela! muito bem!",
+    "file": "clip_087.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de SOL?",
+    "spoken": "qual é a primeira letra de sol?",
+    "file": "clip_088.wav"
+  },
+  {
+    "text": "Monte a palavra SOL.",
+    "spoken": "monte a palavra sol.",
+    "file": "clip_089.wav"
+  },
+  {
+    "text": "S. SOL! Muito bem!",
+    "spoken": "esse. sol! Muito bem!",
+    "file": "clip_090.wav"
+  },
+  {
+    "text": "SOL! Muito bem!",
+    "spoken": "sol! muito bem!",
+    "file": "clip_091.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de MAR?",
+    "spoken": "qual é a primeira letra de mar?",
+    "file": "clip_092.wav"
+  },
+  {
+    "text": "Monte a palavra MAR.",
+    "spoken": "monte a palavra mar.",
+    "file": "clip_093.wav"
+  },
+  {
+    "text": "M. MAR! Muito bem!",
+    "spoken": "eme. mar! Muito bem!",
+    "file": "clip_094.wav"
+  },
+  {
+    "text": "MAR! Muito bem!",
+    "spoken": "mar! muito bem!",
+    "file": "clip_095.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de UVA?",
+    "spoken": "qual é a primeira letra de uva?",
+    "file": "clip_096.wav"
+  },
+  {
+    "text": "Monte a palavra UVA.",
+    "spoken": "monte a palavra uva.",
+    "file": "clip_097.wav"
+  },
+  {
+    "text": "U. UVA! Muito bem!",
+    "spoken": "u. uva! Muito bem!",
+    "file": "clip_098.wav"
+  },
+  {
+    "text": "UVA! Muito bem!",
+    "spoken": "uva! muito bem!",
+    "file": "clip_099.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de OVO?",
+    "spoken": "qual é a primeira letra de ovo?",
+    "file": "clip_100.wav"
+  },
+  {
+    "text": "Monte a palavra OVO.",
+    "spoken": "monte a palavra ovo.",
+    "file": "clip_101.wav"
+  },
+  {
+    "text": "O. OVO! Muito bem!",
+    "spoken": "ó. ovo! Muito bem!",
+    "file": "clip_102.wav"
+  },
+  {
+    "text": "OVO! Muito bem!",
+    "spoken": "ovo! muito bem!",
+    "file": "clip_103.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de LUA?",
+    "spoken": "qual é a primeira letra de lua?",
+    "file": "clip_104.wav"
+  },
+  {
+    "text": "Monte a palavra LUA.",
+    "spoken": "monte a palavra lua.",
+    "file": "clip_105.wav"
+  },
+  {
+    "text": "L. LUA! Muito bem!",
+    "spoken": "ele. lua! Muito bem!",
+    "file": "clip_106.wav"
+  },
+  {
+    "text": "LUA! Muito bem!",
+    "spoken": "lua! muito bem!",
+    "file": "clip_107.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de BOI?",
+    "spoken": "qual é a primeira letra de boi?",
+    "file": "clip_108.wav"
+  },
+  {
+    "text": "Monte a palavra BOI.",
+    "spoken": "monte a palavra boi.",
+    "file": "clip_109.wav"
+  },
+  {
+    "text": "B. BOI! Muito bem!",
+    "spoken": "bê. boi! Muito bem!",
+    "file": "clip_110.wav"
+  },
+  {
+    "text": "BOI! Muito bem!",
+    "spoken": "boi! muito bem!",
+    "file": "clip_111.wav"
+  },
+  {
+    "text": "Qual é a primeira letra de MEL?",
+    "spoken": "qual é a primeira letra de mel?",
+    "file": "clip_112.wav"
+  },
+  {
+    "text": "Monte a palavra MEL.",
+    "spoken": "monte a palavra mel.",
+    "file": "clip_113.wav"
+  },
+  {
+    "text": "M. MEL! Muito bem!",
+    "spoken": "eme. mel! Muito bem!",
+    "file": "clip_114.wav"
+  },
+  {
+    "text": "MEL! Muito bem!",
+    "spoken": "mel! muito bem!",
+    "file": "clip_115.wav"
+  },
+  {
+    "text": "A",
+    "spoken": "á",
+    "file": "clip_116.wav"
+  },
+  {
+    "text": "A de ABELHA",
+    "spoken": "á de abelha",
+    "file": "clip_117.wav"
+  },
+  {
+    "text": "B",
+    "spoken": "bê",
+    "file": "clip_118.wav"
+  },
+  {
+    "text": "B de BOLA",
+    "spoken": "bê de bola",
+    "file": "clip_119.wav"
+  },
+  {
+    "text": "C",
+    "spoken": "cê",
+    "file": "clip_120.wav"
+  },
+  {
+    "text": "C de CASA",
+    "spoken": "cê de casa",
+    "file": "clip_121.wav"
+  },
+  {
+    "text": "D",
+    "spoken": "dê",
+    "file": "clip_122.wav"
+  },
+  {
+    "text": "D de DADO",
+    "spoken": "dê de dado",
+    "file": "clip_123.wav"
+  },
+  {
+    "text": "E",
+    "spoken": "é",
+    "file": "clip_124.wav"
+  },
+  {
+    "text": "E de ELEFANTE",
+    "spoken": "é de elefante",
+    "file": "clip_125.wav"
+  },
+  {
+    "text": "F",
+    "spoken": "efe",
+    "file": "clip_126.wav"
+  },
+  {
+    "text": "F de FLOR",
+    "spoken": "efe de flor",
+    "file": "clip_127.wav"
+  },
+  {
+    "text": "G",
+    "spoken": "gê",
+    "file": "clip_128.wav"
+  },
+  {
+    "text": "G de GATO",
+    "spoken": "gê de gato",
+    "file": "clip_129.wav"
+  },
+  {
+    "text": "H",
+    "spoken": "agá",
+    "file": "clip_130.wav"
+  },
+  {
+    "text": "H de HIPOPÓTAMO",
+    "spoken": "agá de hipopótamo",
+    "file": "clip_131.wav"
+  },
+  {
+    "text": "I",
+    "spoken": "i",
+    "file": "clip_132.wav"
+  },
+  {
+    "text": "I de ILHA",
+    "spoken": "i de ilha",
+    "file": "clip_133.wav"
+  },
+  {
+    "text": "J",
+    "spoken": "jota",
+    "file": "clip_134.wav"
+  },
+  {
+    "text": "J de JACARÉ",
+    "spoken": "jota de jacaré",
+    "file": "clip_135.wav"
+  },
+  {
+    "text": "K",
+    "spoken": "cá",
+    "file": "clip_136.wav"
+  },
+  {
+    "text": "K de KIWI",
+    "spoken": "cá de kiwi",
+    "file": "clip_137.wav"
+  },
+  {
+    "text": "L",
+    "spoken": "ele",
+    "file": "clip_138.wav"
+  },
+  {
+    "text": "L de LUA",
+    "spoken": "ele de lua",
+    "file": "clip_139.wav"
+  },
+  {
+    "text": "M",
+    "spoken": "eme",
+    "file": "clip_140.wav"
+  },
+  {
+    "text": "M de MACACO",
+    "spoken": "eme de macaco",
+    "file": "clip_141.wav"
+  },
+  {
+    "text": "N",
+    "spoken": "ene",
+    "file": "clip_142.wav"
+  },
+  {
+    "text": "N de NAVIO",
+    "spoken": "ene de navio",
+    "file": "clip_143.wav"
+  },
+  {
+    "text": "O",
+    "spoken": "ó",
+    "file": "clip_144.wav"
+  },
+  {
+    "text": "O de OVO",
+    "spoken": "ó de ovo",
+    "file": "clip_145.wav"
+  },
+  {
+    "text": "P",
+    "spoken": "pê",
+    "file": "clip_146.wav"
+  },
+  {
+    "text": "P de PATO",
+    "spoken": "pê de pato",
+    "file": "clip_147.wav"
+  },
+  {
+    "text": "Q",
+    "spoken": "quê",
+    "file": "clip_148.wav"
+  },
+  {
+    "text": "Q de QUEIJO",
+    "spoken": "quê de queijo",
+    "file": "clip_149.wav"
+  },
+  {
+    "text": "R",
+    "spoken": "erre",
+    "file": "clip_150.wav"
+  },
+  {
+    "text": "R de RATO",
+    "spoken": "erre de rato",
+    "file": "clip_151.wav"
+  },
+  {
+    "text": "S",
+    "spoken": "esse",
+    "file": "clip_152.wav"
+  },
+  {
+    "text": "S de SAPO",
+    "spoken": "esse de sapo",
+    "file": "clip_153.wav"
+  },
+  {
+    "text": "T",
+    "spoken": "tê",
+    "file": "clip_154.wav"
+  },
+  {
+    "text": "T de TREM",
+    "spoken": "tê de trem",
+    "file": "clip_155.wav"
+  },
+  {
+    "text": "U",
+    "spoken": "u",
+    "file": "clip_156.wav"
+  },
+  {
+    "text": "U de UVA",
+    "spoken": "u de uva",
+    "file": "clip_157.wav"
+  },
+  {
+    "text": "V",
+    "spoken": "vê",
+    "file": "clip_158.wav"
+  },
+  {
+    "text": "V de VACA",
+    "spoken": "vê de vaca",
+    "file": "clip_159.wav"
+  },
+  {
+    "text": "W",
+    "spoken": "dáblio",
+    "file": "clip_160.wav"
+  },
+  {
+    "text": "W de WIFI",
+    "spoken": "dáblio de wifi",
+    "file": "clip_161.wav"
+  },
+  {
+    "text": "X",
+    "spoken": "xis",
+    "file": "clip_162.wav"
+  },
+  {
+    "text": "X de XÍCARA",
+    "spoken": "xis de xícara",
+    "file": "clip_163.wav"
+  },
+  {
+    "text": "Y",
+    "spoken": "ípsilon",
+    "file": "clip_164.wav"
+  },
+  {
+    "text": "Y de YOUTUBE",
+    "spoken": "ípsilon de youtube",
+    "file": "clip_165.wav"
+  },
+  {
+    "text": "Z",
+    "spoken": "zê",
+    "file": "clip_166.wav"
+  },
+  {
+    "text": "Z de ZEBRA",
+    "spoken": "zê de zebra",
+    "file": "clip_167.wav"
+  },
+  {
+    "text": "Toque em uma letra para ouvir.",
+    "spoken": "toque em uma letra para ouvir.",
+    "file": "clip_168.wav"
+  },
+  {
+    "text": "Tente outra letra.",
+    "spoken": "tente outra letra.",
+    "file": "clip_169.wav"
+  },
+  {
+    "text": "Quase! Tente de novo.",
+    "spoken": "quase! tente de novo.",
+    "file": "clip_170.wav"
+  },
+  {
+    "text": "Uau! Que incrível!",
+    "spoken": "uau! que incrível!",
+    "file": "clip_171.wav"
+  },
+  {
+    "text": "Muito bem! Parabéns!",
+    "spoken": "muito bem! parabéns!",
+    "file": "clip_172.wav"
+  }
+]

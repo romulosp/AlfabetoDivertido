@@ -1,0 +1,354 @@
+[gd_resource type="Resource" script_class="NarrationCatalog" load_steps=175 format=3]
+
+[ext_resource type="Script" path="res://scripts/narration_catalog.gd" id="catalog"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_000.wav" id="audio_0"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_001.wav" id="audio_1"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_002.wav" id="audio_2"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_003.wav" id="audio_3"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_004.wav" id="audio_4"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_005.wav" id="audio_5"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_006.wav" id="audio_6"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_007.wav" id="audio_7"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_008.wav" id="audio_8"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_009.wav" id="audio_9"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_010.wav" id="audio_10"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_011.wav" id="audio_11"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_012.wav" id="audio_12"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_013.wav" id="audio_13"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_014.wav" id="audio_14"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_015.wav" id="audio_15"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_016.wav" id="audio_16"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_017.wav" id="audio_17"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_018.wav" id="audio_18"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_019.wav" id="audio_19"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_020.wav" id="audio_20"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_021.wav" id="audio_21"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_022.wav" id="audio_22"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_023.wav" id="audio_23"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_024.wav" id="audio_24"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_025.wav" id="audio_25"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_026.wav" id="audio_26"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_027.wav" id="audio_27"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_028.wav" id="audio_28"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_029.wav" id="audio_29"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_030.wav" id="audio_30"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_031.wav" id="audio_31"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_032.wav" id="audio_32"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_033.wav" id="audio_33"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_034.wav" id="audio_34"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_035.wav" id="audio_35"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_036.wav" id="audio_36"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_037.wav" id="audio_37"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_038.wav" id="audio_38"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_039.wav" id="audio_39"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_040.wav" id="audio_40"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_041.wav" id="audio_41"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_042.wav" id="audio_42"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_043.wav" id="audio_43"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_044.wav" id="audio_44"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_045.wav" id="audio_45"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_046.wav" id="audio_46"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_047.wav" id="audio_47"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_048.wav" id="audio_48"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_049.wav" id="audio_49"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_050.wav" id="audio_50"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_051.wav" id="audio_51"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_052.wav" id="audio_52"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_053.wav" id="audio_53"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_054.wav" id="audio_54"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_055.wav" id="audio_55"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_056.wav" id="audio_56"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_057.wav" id="audio_57"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_058.wav" id="audio_58"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_059.wav" id="audio_59"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_060.wav" id="audio_60"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_061.wav" id="audio_61"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_062.wav" id="audio_62"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_063.wav" id="audio_63"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_064.wav" id="audio_64"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_065.wav" id="audio_65"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_066.wav" id="audio_66"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_067.wav" id="audio_67"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_068.wav" id="audio_68"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_069.wav" id="audio_69"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_070.wav" id="audio_70"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_071.wav" id="audio_71"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_072.wav" id="audio_72"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_073.wav" id="audio_73"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_074.wav" id="audio_74"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_075.wav" id="audio_75"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_076.wav" id="audio_76"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_077.wav" id="audio_77"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_078.wav" id="audio_78"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_079.wav" id="audio_79"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_080.wav" id="audio_80"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_081.wav" id="audio_81"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_082.wav" id="audio_82"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_083.wav" id="audio_83"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_084.wav" id="audio_84"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_085.wav" id="audio_85"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_086.wav" id="audio_86"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_087.wav" id="audio_87"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_088.wav" id="audio_88"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_089.wav" id="audio_89"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_090.wav" id="audio_90"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_091.wav" id="audio_91"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_092.wav" id="audio_92"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_093.wav" id="audio_93"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_094.wav" id="audio_94"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_095.wav" id="audio_95"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_096.wav" id="audio_96"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_097.wav" id="audio_97"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_098.wav" id="audio_98"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_099.wav" id="audio_99"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_100.wav" id="audio_100"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_101.wav" id="audio_101"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_102.wav" id="audio_102"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_103.wav" id="audio_103"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_104.wav" id="audio_104"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_105.wav" id="audio_105"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_106.wav" id="audio_106"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_107.wav" id="audio_107"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_108.wav" id="audio_108"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_109.wav" id="audio_109"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_110.wav" id="audio_110"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_111.wav" id="audio_111"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_112.wav" id="audio_112"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_113.wav" id="audio_113"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_114.wav" id="audio_114"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_115.wav" id="audio_115"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_116.wav" id="audio_116"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_117.wav" id="audio_117"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_118.wav" id="audio_118"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_119.wav" id="audio_119"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_120.wav" id="audio_120"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_121.wav" id="audio_121"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_122.wav" id="audio_122"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_123.wav" id="audio_123"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_124.wav" id="audio_124"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_125.wav" id="audio_125"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_126.wav" id="audio_126"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_127.wav" id="audio_127"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_128.wav" id="audio_128"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_129.wav" id="audio_129"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_130.wav" id="audio_130"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_131.wav" id="audio_131"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_132.wav" id="audio_132"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_133.wav" id="audio_133"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_134.wav" id="audio_134"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_135.wav" id="audio_135"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_136.wav" id="audio_136"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_137.wav" id="audio_137"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_138.wav" id="audio_138"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_139.wav" id="audio_139"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_140.wav" id="audio_140"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_141.wav" id="audio_141"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_142.wav" id="audio_142"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_143.wav" id="audio_143"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_144.wav" id="audio_144"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_145.wav" id="audio_145"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_146.wav" id="audio_146"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_147.wav" id="audio_147"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_148.wav" id="audio_148"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_149.wav" id="audio_149"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_150.wav" id="audio_150"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_151.wav" id="audio_151"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_152.wav" id="audio_152"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_153.wav" id="audio_153"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_154.wav" id="audio_154"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_155.wav" id="audio_155"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_156.wav" id="audio_156"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_157.wav" id="audio_157"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_158.wav" id="audio_158"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_159.wav" id="audio_159"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_160.wav" id="audio_160"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_161.wav" id="audio_161"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_162.wav" id="audio_162"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_163.wav" id="audio_163"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_164.wav" id="audio_164"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_165.wav" id="audio_165"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_166.wav" id="audio_166"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_167.wav" id="audio_167"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_168.wav" id="audio_168"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_169.wav" id="audio_169"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_170.wav" id="audio_170"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_171.wav" id="audio_171"]
+[ext_resource type="AudioStream" path="res://assets/audio/clip_172.wav" id="audio_172"]
+
+[resource]
+script = ExtResource("catalog")
+clips = Dictionary[String, AudioStream]({
+"Qual é a primeira letra de GATO?": ExtResource("audio_0"),
+"Monte a palavra GATO.": ExtResource("audio_1"),
+"G. GATO! Muito bem!": ExtResource("audio_2"),
+"GATO! Muito bem!": ExtResource("audio_3"),
+"Qual é a primeira letra de PATO?": ExtResource("audio_4"),
+"Monte a palavra PATO.": ExtResource("audio_5"),
+"P. PATO! Muito bem!": ExtResource("audio_6"),
+"PATO! Muito bem!": ExtResource("audio_7"),
+"Qual é a primeira letra de BOLA?": ExtResource("audio_8"),
+"Monte a palavra BOLA.": ExtResource("audio_9"),
+"B. BOLA! Muito bem!": ExtResource("audio_10"),
+"BOLA! Muito bem!": ExtResource("audio_11"),
+"Qual é a primeira letra de CASA?": ExtResource("audio_12"),
+"Monte a palavra CASA.": ExtResource("audio_13"),
+"C. CASA! Muito bem!": ExtResource("audio_14"),
+"CASA! Muito bem!": ExtResource("audio_15"),
+"Qual é a primeira letra de SAPO?": ExtResource("audio_16"),
+"Monte a palavra SAPO.": ExtResource("audio_17"),
+"S. SAPO! Muito bem!": ExtResource("audio_18"),
+"SAPO! Muito bem!": ExtResource("audio_19"),
+"Qual é a primeira letra de RATO?": ExtResource("audio_20"),
+"Monte a palavra RATO.": ExtResource("audio_21"),
+"R. RATO! Muito bem!": ExtResource("audio_22"),
+"RATO! Muito bem!": ExtResource("audio_23"),
+"Qual é a primeira letra de DADO?": ExtResource("audio_24"),
+"Monte a palavra DADO.": ExtResource("audio_25"),
+"D. DADO! Muito bem!": ExtResource("audio_26"),
+"DADO! Muito bem!": ExtResource("audio_27"),
+"Qual é a primeira letra de FACA?": ExtResource("audio_28"),
+"Monte a palavra FACA.": ExtResource("audio_29"),
+"F. FACA! Muito bem!": ExtResource("audio_30"),
+"FACA! Muito bem!": ExtResource("audio_31"),
+"Qual é a primeira letra de VACA?": ExtResource("audio_32"),
+"Monte a palavra VACA.": ExtResource("audio_33"),
+"V. VACA! Muito bem!": ExtResource("audio_34"),
+"VACA! Muito bem!": ExtResource("audio_35"),
+"Qual é a primeira letra de LOBO?": ExtResource("audio_36"),
+"Monte a palavra LOBO.": ExtResource("audio_37"),
+"L. LOBO! Muito bem!": ExtResource("audio_38"),
+"LOBO! Muito bem!": ExtResource("audio_39"),
+"Qual é a primeira letra de URSO?": ExtResource("audio_40"),
+"Monte a palavra URSO.": ExtResource("audio_41"),
+"U. URSO! Muito bem!": ExtResource("audio_42"),
+"URSO! Muito bem!": ExtResource("audio_43"),
+"Qual é a primeira letra de FLOR?": ExtResource("audio_44"),
+"Monte a palavra FLOR.": ExtResource("audio_45"),
+"F. FLOR! Muito bem!": ExtResource("audio_46"),
+"FLOR! Muito bem!": ExtResource("audio_47"),
+"Qual é a primeira letra de FOGO?": ExtResource("audio_48"),
+"Monte a palavra FOGO.": ExtResource("audio_49"),
+"F. FOGO! Muito bem!": ExtResource("audio_50"),
+"FOGO! Muito bem!": ExtResource("audio_51"),
+"Qual é a primeira letra de MESA?": ExtResource("audio_52"),
+"Monte a palavra MESA.": ExtResource("audio_53"),
+"M. MESA! Muito bem!": ExtResource("audio_54"),
+"MESA! Muito bem!": ExtResource("audio_55"),
+"Qual é a primeira letra de CAMA?": ExtResource("audio_56"),
+"Monte a palavra CAMA.": ExtResource("audio_57"),
+"C. CAMA! Muito bem!": ExtResource("audio_58"),
+"CAMA! Muito bem!": ExtResource("audio_59"),
+"Qual é a primeira letra de PIPA?": ExtResource("audio_60"),
+"Monte a palavra PIPA.": ExtResource("audio_61"),
+"P. PIPA! Muito bem!": ExtResource("audio_62"),
+"PIPA! Muito bem!": ExtResource("audio_63"),
+"Qual é a primeira letra de ROSA?": ExtResource("audio_64"),
+"Monte a palavra ROSA.": ExtResource("audio_65"),
+"R. ROSA! Muito bem!": ExtResource("audio_66"),
+"ROSA! Muito bem!": ExtResource("audio_67"),
+"Qual é a primeira letra de TREM?": ExtResource("audio_68"),
+"Monte a palavra TREM.": ExtResource("audio_69"),
+"T. TREM! Muito bem!": ExtResource("audio_70"),
+"TREM! Muito bem!": ExtResource("audio_71"),
+"Qual é a primeira letra de MAPA?": ExtResource("audio_72"),
+"Monte a palavra MAPA.": ExtResource("audio_73"),
+"M. MAPA! Muito bem!": ExtResource("audio_74"),
+"MAPA! Muito bem!": ExtResource("audio_75"),
+"Qual é a primeira letra de BOLO?": ExtResource("audio_76"),
+"Monte a palavra BOLO.": ExtResource("audio_77"),
+"B. BOLO! Muito bem!": ExtResource("audio_78"),
+"BOLO! Muito bem!": ExtResource("audio_79"),
+"Qual é a primeira letra de MOTO?": ExtResource("audio_80"),
+"Monte a palavra MOTO.": ExtResource("audio_81"),
+"M. MOTO! Muito bem!": ExtResource("audio_82"),
+"MOTO! Muito bem!": ExtResource("audio_83"),
+"Qual é a primeira letra de VELA?": ExtResource("audio_84"),
+"Monte a palavra VELA.": ExtResource("audio_85"),
+"V. VELA! Muito bem!": ExtResource("audio_86"),
+"VELA! Muito bem!": ExtResource("audio_87"),
+"Qual é a primeira letra de SOL?": ExtResource("audio_88"),
+"Monte a palavra SOL.": ExtResource("audio_89"),
+"S. SOL! Muito bem!": ExtResource("audio_90"),
+"SOL! Muito bem!": ExtResource("audio_91"),
+"Qual é a primeira letra de MAR?": ExtResource("audio_92"),
+"Monte a palavra MAR.": ExtResource("audio_93"),
+"M. MAR! Muito bem!": ExtResource("audio_94"),
+"MAR! Muito bem!": ExtResource("audio_95"),
+"Qual é a primeira letra de UVA?": ExtResource("audio_96"),
+"Monte a palavra UVA.": ExtResource("audio_97"),
+"U. UVA! Muito bem!": ExtResource("audio_98"),
+"UVA! Muito bem!": ExtResource("audio_99"),
+"Qual é a primeira letra de OVO?": ExtResource("audio_100"),
+"Monte a palavra OVO.": ExtResource("audio_101"),
+"O. OVO! Muito bem!": ExtResource("audio_102"),
+"OVO! Muito bem!": ExtResource("audio_103"),
+"Qual é a primeira letra de LUA?": ExtResource("audio_104"),
+"Monte a palavra LUA.": ExtResource("audio_105"),
+"L. LUA! Muito bem!": ExtResource("audio_106"),
+"LUA! Muito bem!": ExtResource("audio_107"),
+"Qual é a primeira letra de BOI?": ExtResource("audio_108"),
+"Monte a palavra BOI.": ExtResource("audio_109"),
+"B. BOI! Muito bem!": ExtResource("audio_110"),
+"BOI! Muito bem!": ExtResource("audio_111"),
+"Qual é a primeira letra de MEL?": ExtResource("audio_112"),
+"Monte a palavra MEL.": ExtResource("audio_113"),
+"M. MEL! Muito bem!": ExtResource("audio_114"),
+"MEL! Muito bem!": ExtResource("audio_115"),
+"A": ExtResource("audio_116"),
+"A de ABELHA": ExtResource("audio_117"),
+"B": ExtResource("audio_118"),
+"B de BOLA": ExtResource("audio_119"),
+"C": ExtResource("audio_120"),
+"C de CASA": ExtResource("audio_121"),
+"D": ExtResource("audio_122"),
+"D de DADO": ExtResource("audio_123"),
+"E": ExtResource("audio_124"),
+"E de ELEFANTE": ExtResource("audio_125"),
+"F": ExtResource("audio_126"),
+"F de FLOR": ExtResource("audio_127"),
+"G": ExtResource("audio_128"),
+"G de GATO": ExtResource("audio_129"),
+"H": ExtResource("audio_130"),
+"H de HIPOPÓTAMO": ExtResource("audio_131"),
+"I": ExtResource("audio_132"),
+"I de ILHA": ExtResource("audio_133"),
+"J": ExtResource("audio_134"),
+"J de JACARÉ": ExtResource("audio_135"),
+"K": ExtResource("audio_136"),
+"K de KIWI": ExtResource("audio_137"),
+"L": ExtResource("audio_138"),
+"L de LUA": ExtResource("audio_139"),
+"M": ExtResource("audio_140"),
+"M de MACACO": ExtResource("audio_141"),
+"N": ExtResource("audio_142"),
+"N de NAVIO": ExtResource("audio_143"),
+"O": ExtResource("audio_144"),
+"O de OVO": ExtResource("audio_145"),
+"P": ExtResource("audio_146"),
+"P de PATO": ExtResource("audio_147"),
+"Q": ExtResource("audio_148"),
+"Q de QUEIJO": ExtResource("audio_149"),
+"R": ExtResource("audio_150"),
+"R de RATO": ExtResource("audio_151"),
+"S": ExtResource("audio_152"),
+"S de SAPO": ExtResource("audio_153"),
+"T": ExtResource("audio_154"),
+"T de TREM": ExtResource("audio_155"),
+"U": ExtResource("audio_156"),
+"U de UVA": ExtResource("audio_157"),
+"V": ExtResource("audio_158"),
+"V de VACA": ExtResource("audio_159"),
+"W": ExtResource("audio_160"),
+"W de WIFI": ExtResource("audio_161"),
+"X": ExtResource("audio_162"),
+"X de XÍCARA": ExtResource("audio_163"),
+"Y": ExtResource("audio_164"),
+"Y de YOUTUBE": ExtResource("audio_165"),
+"Z": ExtResource("audio_166"),
+"Z de ZEBRA": ExtResource("audio_167"),
+"Toque em uma letra para ouvir.": ExtResource("audio_168"),
+"Tente outra letra.": ExtResource("audio_169"),
+"Quase! Tente de novo.": ExtResource("audio_170"),
+"Uau! Que incrível!": ExtResource("audio_171"),
+"Muito bem! Parabéns!": ExtResource("audio_172")
+})
