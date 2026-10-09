@@ -1,6 +1,8 @@
 [CmdletBinding()]
 param(
     [string]$Sdk = 'D:\desenvolvimento\ferramentas_android\Sdk',
+    [string]$ApkPath = '',
+    [string]$Package = 'com.romulopenha.alfabetodivertido',
     [switch]$CheckOnly
 )
 
@@ -11,6 +13,8 @@ trap {
 }
 $workspace = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '../..')).Path
 $apk = Join-Path $workspace 'builds/android/alfabeto-divertido-debug.apk'
+if (-not [string]::IsNullOrWhiteSpace($ApkPath)) { $apk = $ApkPath }
+if ($Package -notmatch '^[a-zA-Z][a-zA-Z0-9_]*(\.[a-zA-Z][a-zA-Z0-9_]*)+$') { throw 'Pacote Android invalido.' }
 $adb = Join-Path $Sdk 'platform-tools/adb.exe'
 # Read saved Windows settings first: VS Code may inherit an outdated value.
 $target = [Environment]::GetEnvironmentVariable('PORTA_CELULAR', 'User')
@@ -59,9 +63,14 @@ if ($target.Contains(':')) {
     & $adb connect $target
     if ($LASTEXITCODE -ne 0) { throw "Falha ao conectar a $target." }
 }
-$devices = (& $adb devices | Out-String)
-if ($LASTEXITCODE -ne 0) { throw 'Falha ao consultar dispositivos ADB.' }
 $escapedTarget = [regex]::Escape($target)
+$deadline = (Get-Date).AddSeconds(15)
+do {
+    $devices = (& $adb devices | Out-String)
+    if ($LASTEXITCODE -ne 0) { throw 'Falha ao consultar dispositivos ADB.' }
+    if ($devices -match "(?m)^$escapedTarget\s+(device|unauthorized)\s*$") { break }
+    Start-Sleep -Milliseconds 500
+} while ((Get-Date) -lt $deadline)
 if ($devices -notmatch "(?m)^$escapedTarget\s+device\s*$") {
     if ($devices -match "(?m)^$escapedTarget\s+unauthorized") {
         throw 'Celular nao autorizado. Aceite a depuracao USB na tela do celular e execute novamente.'
@@ -71,9 +80,9 @@ if ($devices -notmatch "(?m)^$escapedTarget\s+device\s*$") {
 Write-Host "Instalando APK no celular $target..."
 & $adb -s $target install -r $apk
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao instalar o APK no celular.' }
-& $adb -s $target shell am force-stop com.romulopenha.alfabetodivertido
+& $adb -s $target shell am force-stop $Package
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao reiniciar o aplicativo no celular.' }
-$launch = (& $adb -s $target shell am start -W -n com.romulopenha.alfabetodivertido/com.godot.game.GodotAppLauncher | Out-String)
+$launch = (& $adb -s $target shell am start -W -n "$Package/com.godot.game.GodotAppLauncher" | Out-String)
 Write-Host $launch
 if ($LASTEXITCODE -ne 0 -or $launch -match '(?m)^Error') { throw 'Falha ao abrir o aplicativo no celular.' }
 Write-Host "Deploy concluido: aplicativo aberto no celular $target."

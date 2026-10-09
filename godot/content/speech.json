@@ -1,0 +1,66 @@
+{
+  "welcome": {
+    "text": "Bem-vindo ao Jardim das Letras! Toque no chão para passear. Toque na bola, na casa ou no dado para brincar.",
+    "file": "res://assets/audio/welcome.ogg"
+  },
+  "bola_prompt": {
+    "text": "Vamos brincar! Qual letra começa a palavra bola?",
+    "file": "res://assets/audio/bola_prompt.ogg"
+  },
+  "bola_wrong": {
+    "text": "Boa tentativa! Escute comigo: bola. Vamos tentar outra letra?",
+    "file": "res://assets/audio/bola_wrong.ogg"
+  },
+  "bola_hint1": {
+    "text": "Escute o começo da palavra: bola. Procure a letra bê.",
+    "file": "res://assets/audio/bola_hint1.ogg"
+  },
+  "bola_hint2": {
+    "text": "Bola começa com bê. Toque na letra bê.",
+    "file": "res://assets/audio/bola_hint2.ogg"
+  },
+  "bola_correct": {
+    "text": "Muito bem! Bola começa com bê! Vamos descobrir outro objeto no jardim.",
+    "file": "res://assets/audio/bola_correct.ogg"
+  },
+  "casa_prompt": {
+    "text": "Vamos brincar! Qual letra começa a palavra casa?",
+    "file": "res://assets/audio/casa_prompt.ogg"
+  },
+  "casa_wrong": {
+    "text": "Boa tentativa! Escute comigo: casa. Vamos tentar outra letra?",
+    "file": "res://assets/audio/casa_wrong.ogg"
+  },
+  "casa_hint1": {
+    "text": "Escute o começo da palavra: casa. Procure a letra cê.",
+    "file": "res://assets/audio/casa_hint1.ogg"
+  },
+  "casa_hint2": {
+    "text": "Casa começa com cê. Toque na letra cê.",
+    "file": "res://assets/audio/casa_hint2.ogg"
+  },
+  "casa_correct": {
+    "text": "Muito bem! Casa começa com cê! Vamos descobrir outro objeto no jardim.",
+    "file": "res://assets/audio/casa_correct.ogg"
+  },
+  "dado_prompt": {
+    "text": "Vamos brincar! Qual letra começa a palavra dado?",
+    "file": "res://assets/audio/dado_prompt.ogg"
+  },
+  "dado_wrong": {
+    "text": "Boa tentativa! Escute comigo: dado. Vamos tentar outra letra?",
+    "file": "res://assets/audio/dado_wrong.ogg"
+  },
+  "dado_hint1": {
+    "text": "Escute o começo da palavra: dado. Procure a letra dê.",
+    "file": "res://assets/audio/dado_hint1.ogg"
+  },
+  "dado_hint2": {
+    "text": "Dado começa com dê. Toque na letra dê.",
+    "file": "res://assets/audio/dado_hint2.ogg"
+  },
+  "dado_correct": {
+    "text": "Muito bem! Dado começa com dê! Vamos descobrir outro objeto no jardim.",
+    "file": "res://assets/audio/dado_correct.ogg"
+  }
+}

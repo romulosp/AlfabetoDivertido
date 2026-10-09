@@ -1,0 +1,24 @@
+{
+  "status": "draft_pending_review",
+  "trianglesUpperBound": 6400,
+  "animations": [
+    "idle",
+    "talk",
+    "celebrate",
+    "think",
+    "beak_closed",
+    "beak_half_open",
+    "beak_open",
+    "happy",
+    "curious",
+    "thinking",
+    "encouraging"
+  ],
+  "bones": 6,
+  "inferred": [
+    "back",
+    "depth",
+    "oppositewing"
+  ],
+  "textures": 0
+}

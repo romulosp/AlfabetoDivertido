@@ -3,20 +3,20 @@ INFO         | Graphics backend: gfxstream
 INFO         | Found systemPath D:\desenvolvimento\ferramentas_android\Sdk\system-images\android-35\google_apis_playstore_tablet\x86_64\
 INFO         | Increasing RAM size to 4096MB
 INFO         | IPv4 server found: 192.168.1.254
-INFO         | Ignore IPv6 address: a0e8:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: a0e8:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: a0e8:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: 38f0:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: 38f0:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e8fc:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e8fc:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e8fc:32d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: 3:33d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: 3:33d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: 3:33d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e808:33d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e808:33d5:7202:0:a0e8:32d5:7202:0
-INFO         | Ignore IPv6 address: e808:33d5:7202:0:a0e8:32d5:7202:0
+INFO         | Ignore IPv6 address: 20e4:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 20e4:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 20e4:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: b8eb:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: b8eb:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: b8eb:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 40f3:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 40f3:50ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 4800:51ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 4800:51ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: 4800:51ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: a006:51ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: a006:51ef:d701:0:20e4:50ef:d701:0
+INFO         | Ignore IPv6 address: a006:51ef:d701:0:20e4:50ef:d701:0
 INFO         | Guest GLES Driver: Auto (ext controls)
 INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'NVIDIA GeForce RTX 3060', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.4.329, driverVersion: 596.21
 
@@ -32,7 +32,7 @@ INFO         |   Checking: hasSufficientDiskSpace
 INFO         |      Ok: Disk space requirements to run avd: `Medium_Tablet` are met
 INFO         | Critical: Failed to load opengl32sw (Não foi possível encontrar o módulo especificado.) (:0, )
 INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
-INFO         | Storing crashdata in: C:\Users\ROMULO~1\AppData\Local\Temp\\AndroidEmulator\emu-crash-37.1.11.db, detection is enabled for process: 16872
+INFO         | Storing crashdata in: C:\Users\ROMULO~1\AppData\Local\Temp\\AndroidEmulator\emu-crash-37.1.11.db, detection is enabled for process: 37692
 INFO         | Initializing gfxstream backend
 INFO         | startOpenglesRendererImpl: gpu info
 INFO         | GPU #1
@@ -119,20 +119,55 @@ INFO         | Initializing a scene with mode: mesh3d, argument: Toren1BD.obj
 USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
 INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
 INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
-INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=00000273EE96AF60
+INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=000001D9042A0100
 INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=1
-INFO         | Created extended window in 131.268ms
+INFO         | Created extended window in 232.556ms
 WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
-ERROR        | adb protocol fault (couldn't read status length)
-INFO         | Boot completed in 16935 ms
+INFO         | Boot completed in 22517 ms
 INFO         | Increasing screen off timeout, logcat buffer size to 2M.
 INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(270, 131), size=(684x84), dirty=(684x84 0, 0) (Um dispositivo conectado ao sistema não está funcionando.) (:0, )
 INFO         | Warning: Retrying to obtain clipboard. (:0, )
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
+ERROR        | Unable to connect to adb daemon on port: 5037
+WARNING      | adb command 'D:\desenvolvimento\ferramentas_android\Sdk\platform-tools\adb.exe -s emulator-5584 shell dumpsys package com.google.android.gms ' failed: '* daemon not running; starting now at tcp:5037
+* daemon started successfully
+adb.exe: device 'emulator-5584' not found'
 WARNING      | Not saving state: RAM not mapped as shared
-INFO         | Wait for emulator (pid 16872) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+INFO         | Wait for emulator (pid 37692) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
 
-INFO         | Saving snapshot 'default_boot' using 1 ms
+INFO         | Saving snapshot 'default_boot' using 2 ms
 WARNING      | Emulator client has not yet been configured.. Call configure me first!
-INFO         | removeScene: scene=0x272ea811380
+INFO         | removeScene: scene=0x1d7fc816fd0
 INFO         | removeAll
 WARNING      | Netsim Wifi dns:///localhost:52456 is gone due to Stream removed (CANCELLED)

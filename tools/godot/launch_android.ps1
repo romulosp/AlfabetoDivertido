@@ -3,12 +3,15 @@ param(
     [string]$Sdk = 'D:\desenvolvimento\ferramentas_android\Sdk',
     [string]$Avd = 'Medium_Tablet',
     [int]$Port = 5584,
-    [int]$TimeoutSeconds = 180
+    [int]$TimeoutSeconds = 180,
+    [string]$ApkPath = '',
+    [string]$Package = 'com.romulopenha.alfabetodivertido'
 )
 
 $ErrorActionPreference = 'Stop'
 $workspace = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '../..')).Path
 $apk = Join-Path $workspace 'builds/android/alfabeto-divertido-debug.apk'
+if ($ApkPath) { $apk = $ApkPath }
 $adb = Join-Path $Sdk 'platform-tools/adb.exe'
 $emulator = Join-Path $Sdk 'emulator/emulator.exe'
 foreach ($required in @($apk, $adb, $emulator)) {
@@ -40,8 +43,8 @@ if (-not $booted) { throw "Emulador nao iniciou em $TimeoutSeconds segundos. Con
 Write-Host 'Instalando APK...'
 & $adb -s $serial install -r $apk
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao instalar o APK.' }
-& $adb -s $serial shell am force-stop com.romulopenha.alfabetodivertido
+& $adb -s $serial shell am force-stop $Package
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao reiniciar o aplicativo.' }
-& $adb -s $serial shell am start -W -n com.romulopenha.alfabetodivertido/com.godot.game.GodotAppLauncher
+& $adb -s $serial shell am start -W -n "$Package/com.godot.game.GodotAppLauncher"
 if ($LASTEXITCODE -ne 0) { throw 'Falha ao abrir o aplicativo.' }
 Write-Host "APK aberto em $serial. A janela do emulador pode ser acessada pela barra de tarefas."
